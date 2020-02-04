@@ -1,3 +1,5 @@
+=================================================================================
+HTML：
 h1~h6 标题
 p     段落
 p     标签要注意的是里面只能放文本、图片、表单元素（这是个东西都是流元素，CSS后面细讲）。
@@ -14,3 +16,40 @@ str： source资源， alt： alternative替代物
 
 	2. 页面内容描点(标识符)：<a name="Wi">
 		跳转摸个描点 <a href="Wi"></a>
+
+=================================================================================
+CSS:
+2.1 无需列表  (unordered list)有三种
+	ul 就是英语：unordered list 				”无需列表“ 的意思（只能包裹li）
+	li 就是英语：list item 					”列表项“的意思
+		li是个容器级标签 什么都能放入
+	<ul>
+		<li>上海</li>
+		<li>广州</li>
+		<li>重庆</li>
+	</ul>
+
+2.2 有序列表 （ordered list） 用 ol 表示
+	ol 就是英语：ordered list
+		也就是 ol 和 ul 语义不同
+	<ol>
+		<li>小米粒</li>
+		<li>小米粒</li>
+		<li>小米粒</li>
+		<li>小米粒</li>
+	</ol>
+
+2.3 定义列表 （有三个标签）	
+	dl表示 definition list 				定义列表
+	dt表示 definition title 				定义标题
+	dd表示 definition desciption 		定义表述词
+	<dl>
+		<dt>重庆</dt>
+		<dd>火成</dd>
+		<dt>北京</dt>
+		<dd>中国首都</dd>
+	</dl>
+
+三、Div 和 span
+	div 和span 是非重要标签，div的含义是division“分割”， span 的含义是span“范围”、“跨度”。
+	CSS中这两个都是“盒子”容器。

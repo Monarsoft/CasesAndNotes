@@ -1,10 +1,10 @@
-style	样式
+﻿style	样式
 
 color	字体颜色
 background-color	背景颜色
 font-size	字号
 font-weight	字体粗细
-font-family	字体
+font-family	20:26 2020/1/20:27 2020/1/2字体
 font-style	字型
 text-align	文字对齐
 text-decoration	文字修饰
